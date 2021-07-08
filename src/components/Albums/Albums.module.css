@@ -1,0 +1,69 @@
+.albumsContainer {
+  max-width: 650px;
+  width: 90vw;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.albums {
+  padding: 1rem 1rem;
+}
+
+.albums .albumsTitle {
+  border-bottom: 1px solid rgba(232, 232, 232, 1);
+}
+
+.albumsTitle > h3 {
+  font-size: 1.18rem;
+  color: darkgrey;
+}
+
+.albumName > a {
+  text-decoration: none;
+}
+
+.albumName h3 {
+  margin-top: 0px;
+}
+
+.albumItem {
+  display: flex;
+  margin: 1rem 0rem;
+  border-bottom: 1px solid rgba(232, 232, 2321);
+  padding-bottom: 1rem;
+  cursor: pointer;
+}
+
+.albumItemImg {
+  background-color: darkgray;
+  margin-right: 0.75rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 80px;
+}
+
+.albumItemDetail {
+}
+
+.albumItemDetail .author > h3 {
+  margin-top: 0rem;
+  margin-bottom: 0.3rem;
+}
+
+.albumItemDetail .singer {
+  color: darkgray;
+  padding: 0.5rem 0rem;
+}
+
+.albumItemDetail .miniDes {
+  font-weight: 100;
+}
+
+.albumItemDetail .miniDes > span:nth-child(1) {
+  padding-right: 1rem;
+}
+
+.albumItemDetail .miniDes > span:nth-child(2) {
+  padding-right: 0.2rem;
+}

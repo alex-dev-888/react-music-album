@@ -1,0 +1,24 @@
+.songItem {
+  display: flex;
+  border-bottom: 1px solid darkgray;
+  padding-bottom: 0.7rem;
+}
+
+.songItemImg {
+  background-color: darkslategray;
+  margin-right: 0.6rem;
+  width: 100px;
+}
+
+.songItemDetail {
+  display: flex;
+  flex-direction: column;
+}
+
+.title h3 {
+  margin-top: 0px;
+  margin-bottom: 0.75rem;
+}
+.audio audio {
+  height: 20px;
+}
